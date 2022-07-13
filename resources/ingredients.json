@@ -1,0 +1,10 @@
+{
+  "ingredients": [
+    {"key": "garlic", "name": "garlic","cs": "česnek"},
+    {"key": "eidam-cheese", "name": "Eidam cheese","cs": "sýr Eidam"},
+    {"key": "mayonnaise", "name": "mayonnaise","cs": "majonéza"},
+    {"key": "spread-butter", "name": "spread butter","cs": "pomazánkové máslo"},
+    {"key": "salt", "name": "salt","cs": "sůl"},
+    {"key": "pepper", "name": "pepper","cs": "pepř"}
+  ]
+}
