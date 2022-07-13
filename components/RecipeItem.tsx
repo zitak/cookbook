@@ -1,12 +1,12 @@
 import React from "react"
 import NextLink from "next/link"
-import { Recipe } from "../types/recipe"
 
 interface Props {
-  recipe: Recipe
+  slug: string
+  title: string
 }
 
-const RecipeItem = ({ recipe }: Props) => (
+const RecipeItem = ({ slug, title }: Props) => (
   <div>
     <div
       style={{
@@ -16,8 +16,8 @@ const RecipeItem = ({ recipe }: Props) => (
         justifyItems: "center",
       }}
     >
-      <NextLink as={`/blog/${recipe.slug}`} href="/recipe/[slug]">
-        <a href="/recipe">{recipe.title}</a>
+      <NextLink as={`/recipe/${slug}`} href="/recipe/[slug]">
+        <a href="/recipe">{title}</a>
       </NextLink>
     </div>
   </div>

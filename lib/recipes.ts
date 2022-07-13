@@ -15,7 +15,10 @@ function getAllSlugs(): Array<string> {
   return fs.readdirSync(recipesDirectory)
 }
 
-function getRecipeBySlug(slug: string, fields: string[] = []): RecipeType {
+export function getRecipeBySlug(
+  slug: string,
+  fields: string[] = []
+): RecipeType {
   const realSlug = slug.replace(/\.mdx$/, "")
   const { data, content } = getRawRecipeBySlug(realSlug)
   const items: RecipeType = {}

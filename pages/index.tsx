@@ -31,7 +31,11 @@ const Home = ({ recipes }: Props) => {
 
         <div className={styles.grid}>
           {recipes.map((recipe) => (
-            <RecipeItem key={recipe.slug} recipe={recipe} />
+            <RecipeItem
+              key={recipe.slug}
+              slug={recipe.slug}
+              title={recipe.title}
+            />
           ))}
         </div>
       </main>
