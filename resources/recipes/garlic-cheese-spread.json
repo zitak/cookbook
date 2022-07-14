@@ -1,0 +1,50 @@
+{
+  "title": "Česneková pomazánka se sýrem",
+  "originUrl": "https://www.rohlik.cz/chef/311-cesnekova-pomazanka",
+  "imageUrl": "../images/garlic-cheese-spread",
+  "preppingTime": null,
+  "cookingTime": null,
+  "servings": 4,
+  "categories": [
+    "spread"
+  ],
+  "ingredients": {
+    "type": 1,
+    "data": [
+      {
+        "amount": 20,
+        "unit": "grams",
+        "name": "garlic"
+      },
+      {
+        "amount": 200,
+        "unit": "grams",
+        "name": "eidam-cheese"
+      },
+      {
+        "amount": 200,
+        "unit": "grams",
+        "name": "mayonnaise"
+      },
+      {
+        "amount": 200,
+        "unit": "grams",
+        "name": "spread-butter"
+      },
+      {
+        "name": "pepper"
+      },
+      {
+        "name": "salt"
+      }
+    ]
+  },
+  "directions": [
+    "Sýr nastrouháme na jemném struhadle a dáme do mísy.",
+    "Oloupaný česnek podélně rozpůlíme, odstraníme středové klíčky a vyhodíme je. Česnek nastrouháme na jemném struhadle nebo protlačíme a vložíme do mísy k sýru.",
+    "Přidáme majonézu a pomazánkové máslo a promícháme. Dle chuti osolíme, opepříme a opět promícháme. Pomazánku dáme na 20 minut odležet do lednice."
+  ],
+  "notes": [
+    "Klíček v česneku obsahuje velké množství silic, po kterých může pálit žáha, a pro některé hosty může být pokrm zbytečně těžký. Proto se při přípravě syrových pokrmů či pro krátké vaření odstraňuje."
+  ]
+}

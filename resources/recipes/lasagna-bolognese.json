@@ -1,0 +1,206 @@
+{
+  "title": "Lasagne s boloňským ragú",
+  "originUrl": "https://www.rohlik.cz/chef/707-lasagne-s-bolonskym-ragu",
+  "imageUrl": "../images/lasagna-bolognese",
+  "preppingTime": null,
+  "cookingTime": null,
+  "servings": 6,
+  "categories": [],
+  "ingredients": {
+    "type": 2,
+    "data": [
+      {
+        "name": "beshamel",
+        "ingredients": [
+          {
+            "amount": 60,
+            "unit": "gram",
+            "name": "plain-flour"
+          },
+          {
+            "amount": 60,
+            "unit": "gram",
+            "name": "butter"
+          },
+          {
+            "amount": 1,
+            "unit": "liter",
+            "name": "whole-milk"
+          },
+          {
+            "amount": 50,
+            "unit": "gram",
+            "name": "peeled-onion"
+          },
+          {
+            "amount": 1,
+            "unit": "piece",
+            "name": "bay-leaf"
+          },
+          {
+            "amount": 1,
+            "unit": "pinch",
+            "name": "grated-nutmeg"
+          },
+          {
+            "amount": 1,
+            "unit": "pinch",
+            "name": "white-pepper"
+          },
+          {
+            "amount": 1,
+            "unit": "teaspoon",
+            "name": "salt"
+          }
+        ]
+      },
+      {
+        "name": "ragout",
+        "ingredients": [
+          {
+            "amount": 400,
+            "unit": "gram",
+            "name": "ground-beef-neck"
+          },
+          {
+            "amount": 400,
+            "unit": "gram",
+            "name": "ground-pork-flank"
+          },
+          {
+            "amount": 300,
+            "unit": "gram",
+            "name": "peeled-carrot"
+          },
+          {
+            "amount": 200,
+            "unit": "gram",
+            "name": "peeled-celery"
+          },
+          {
+            "amount": 200,
+            "unit": "gram",
+            "name": "peeled-onion"
+          },
+          {
+            "amount": 150,
+            "unit": "gram",
+            "name": "tomato-puree"
+          },
+          {
+            "amount": 100,
+            "unit": "gram",
+            "name": "pancetta"
+          },
+          {
+            "amount": 100,
+            "unit": "gram",
+            "name": "stalked-celery"
+          },
+          {
+            "amount": 300,
+            "unit": "milliliter",
+            "name": "dry-red-wine"
+          },
+          {
+            "amount": 100,
+            "unit": "milliliter",
+            "name": "olive-oil"
+          },
+          {
+            "amount": 10,
+            "unit": "balls",
+            "name": "black-pepper"
+          },
+          {
+            "amount": 5,
+            "unit": "balls",
+            "name": "allspice"
+          },
+          {
+            "amount": 3,
+            "unit": "piece",
+            "name": "peeled-garlic-clove"
+          },
+          {
+            "amount": 2,
+            "unit": "piece",
+            "name": "bay-leaf"
+          },
+          {
+            "amount": 1,
+            "unit": "teaspoon",
+            "name": "ground-nutmeg"
+          },
+          {
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "name": "ground-pepper"
+          },
+          {
+            "amount": 30,
+            "unit": "gram",
+            "name": "salt"
+          }
+        ]
+      },
+      {
+        "name": "lasagna",
+        "ingredients": [
+          {
+            "amount": 600,
+            "unit": "gram",
+            "name": "lasagna"
+          },
+          {
+            "amount": 200,
+            "unit": "gram",
+            "name": "finely-grated-parmesan"
+          }
+        ]
+      }
+    ]
+  },
+  "directions": [
+    {
+      "name": "ragout",
+      "directions": [
+        "Připravíme sáček s kořením: do látky vložíme bobkové listy, kuličky pepře a nového koření. Pevně zavážeme kuchyňským motouzem.",
+        "Cibuli a česnek nakrájíme najemno. Mrkev a celer nakrájíme na kostičky o hraně 0,5 cm.",
+        "Stonek řapíkatého celeru omyjeme, rozkrojíme podélně na poloviny a ty nakrájíme na malé kousky.",
+        "Maso umeleme. Lardo, pancettu nebo špek nakrájíme na kostky o hraně 1 cm.",
+        "V kastrolu na středním ohni rozpálíme olej a přidáme lardo. Jakmile začne zlátnout, přidáme mrkev, celer a řapíkatý celer. Za častého míchání orestujeme zeleninu dozlatova.",
+        "Přidáme cibuli a za častého míchání ji orestujeme dozlatova.",
+        "Přidáme maso a česnek. Důkladně vše promícháme a osolíme. Stáhneme oheň na třetinu a za častého míchání vaříme 10 minut.",
+        "Přidáme rajský protlak a důkladně zamícháme. Za častého míchání vaříme 15 minut.",
+        "Přidáme sáček s kořením a čerstvě mletý pepř. Přilijeme víno, zamícháme a za občasného míchání vaříme 20 minut.",
+        "Přilijeme 100 ml vody, stáhneme oheň na minimum, přidáme muškátový oříšek, zamícháme a přiklopíme pokličkou. Necháme dusit 3 hodiny za občasného míchání. Pokud se tekutina z kastrolu odpaří, přidáme 100 ml vody."
+      ]
+    },
+    {
+      "name": "beshamel",
+      "directions": [
+        "Cibuli nakrájíme najemno.",
+        "Na středním ohni rozehřejeme v rendlíku máslo. Jakmile začne máslo pěnit, přidáme cibuli a necháme ji za stálého míchání na středním ohni 30 vteřin zpěnit. Přidáme pepř a promícháme.",
+        "Přisypeme mouku a 1 minutu mícháme. Přilijeme všechno studené mléko a důkladně promícháme metlou. Přidáme bobkový list, muškátový oříšek, sůl a přivedeme k varu. Stáhneme oheň na minimum a za stálého míchání vaříme 20 minut.",
+        "Hotový bešamel přecedíme přes jemný cedník."
+      ]
+    },
+    {
+      "name": "lasagna",
+      "directions": [
+        "Troubu rozehřejeme na 180 °C. Připravíme mísu s ledovou vodou.",
+        "Těstoviny uvaříme podle návodu na obalu.",
+        "Dno zapékací mísy potřeme 2 lžícemi bešamelu, na něj položíme pláty těsta v jedné vrstvě. Na něj rozetřeme čtvrtinu bešamelu, přidáme čtvrtinu parmezánu a na něj rozetřeme čtvrtinu ragú.",
+        "Na ni položíme další vrstvu těstovin a stejným způsobem pokračujeme, dokud v míse nejsou 4 vrstvy. Na poslední vrstvu položíme pláty těsta, potřeme je zbývajícím bešamelem a posypeme zbylým parmezánem.",
+        "Zapékací mísu dáme do rozehřáté trouby a necháme péct 30 minut."
+      ]
+    }
+  ],
+  "notes": [
+    "Pancetta může být nahrazena také lardem nebo špekem.",
+    "K hovězímu masu sáhněte po vínu plném, suchém, červeném a s výraznější tříslovinou.",
+    "Těstoviny ve vodě vařte jednotlivě a neuvařte je zcela, změknou ještě v troubě při zapékání.",
+    "Na přípravu budete potřebovat zapékací mísu o rozměrech 24 × 30 cm."
+  ]
+}

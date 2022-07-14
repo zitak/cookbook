@@ -1,11 +1,11 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
-import { Recipe, RecipeType } from "../types/recipe"
+import { Recipe } from "../types/recipe"
 import { getAllRecipes } from "../lib/recipes"
 import RecipeItem from "../components/RecipeItem"
 
 export const getStaticProps = async () => {
-  const recipes: Array<RecipeType> = getAllRecipes(["slug", "title"])
+  const recipes: Array<Recipe> = getAllRecipes()
   return {
     props: { recipes },
   }
@@ -29,15 +29,15 @@ const Home = ({ recipes }: Props) => {
 
         <p className={styles.description}>Awesome recipes follow</p>
 
-        <div className={styles.grid}>
+        <ul>
           {recipes.map((recipe) => (
             <RecipeItem
-              key={recipe.slug}
-              slug={recipe.slug}
+              key={recipe.key}
+              name={recipe.key}
               title={recipe.title}
             />
           ))}
-        </div>
+        </ul>
       </main>
 
       <footer className={styles.footer}></footer>

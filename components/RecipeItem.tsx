@@ -2,25 +2,16 @@ import React from "react"
 import NextLink from "next/link"
 
 interface Props {
-  slug: string
+  name: string
   title: string
 }
 
-const RecipeItem = ({ slug, title }: Props) => (
-  <div>
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyItems: "center",
-      }}
-    >
-      <NextLink as={`/recipe/${slug}`} href="/recipe/[slug]">
-        <a href="/recipe">{title}</a>
-      </NextLink>
-    </div>
-  </div>
+const RecipeItem = ({ name, title }: Props) => (
+  <li key={name}>
+    <NextLink as={`/recipe/${name}`} href="/recipe/[key]">
+      <a href="/recipe">{title}</a>
+    </NextLink>
+  </li>
 )
 
 export default RecipeItem
