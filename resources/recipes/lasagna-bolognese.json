@@ -1,7 +1,7 @@
 {
   "title": "Lasagne s boloňským ragú",
   "originUrl": "https://www.rohlik.cz/chef/707-lasagne-s-bolonskym-ragu",
-  "imageUrl": "../images/lasagna-bolognese",
+  "imageUrl": "/images/lasagna-bolognese.avif",
   "preppingTime": null,
   "cookingTime": null,
   "servings": 6,
@@ -161,42 +161,45 @@
       }
     ]
   },
-  "directions": [
-    {
-      "name": "ragout",
-      "directions": [
-        "Připravíme sáček s kořením: do látky vložíme bobkové listy, kuličky pepře a nového koření. Pevně zavážeme kuchyňským motouzem.",
-        "Cibuli a česnek nakrájíme najemno. Mrkev a celer nakrájíme na kostičky o hraně 0,5 cm.",
-        "Stonek řapíkatého celeru omyjeme, rozkrojíme podélně na poloviny a ty nakrájíme na malé kousky.",
-        "Maso umeleme. Lardo, pancettu nebo špek nakrájíme na kostky o hraně 1 cm.",
-        "V kastrolu na středním ohni rozpálíme olej a přidáme lardo. Jakmile začne zlátnout, přidáme mrkev, celer a řapíkatý celer. Za častého míchání orestujeme zeleninu dozlatova.",
-        "Přidáme cibuli a za častého míchání ji orestujeme dozlatova.",
-        "Přidáme maso a česnek. Důkladně vše promícháme a osolíme. Stáhneme oheň na třetinu a za častého míchání vaříme 10 minut.",
-        "Přidáme rajský protlak a důkladně zamícháme. Za častého míchání vaříme 15 minut.",
-        "Přidáme sáček s kořením a čerstvě mletý pepř. Přilijeme víno, zamícháme a za občasného míchání vaříme 20 minut.",
-        "Přilijeme 100 ml vody, stáhneme oheň na minimum, přidáme muškátový oříšek, zamícháme a přiklopíme pokličkou. Necháme dusit 3 hodiny za občasného míchání. Pokud se tekutina z kastrolu odpaří, přidáme 100 ml vody."
-      ]
-    },
-    {
-      "name": "beshamel",
-      "directions": [
-        "Cibuli nakrájíme najemno.",
-        "Na středním ohni rozehřejeme v rendlíku máslo. Jakmile začne máslo pěnit, přidáme cibuli a necháme ji za stálého míchání na středním ohni 30 vteřin zpěnit. Přidáme pepř a promícháme.",
-        "Přisypeme mouku a 1 minutu mícháme. Přilijeme všechno studené mléko a důkladně promícháme metlou. Přidáme bobkový list, muškátový oříšek, sůl a přivedeme k varu. Stáhneme oheň na minimum a za stálého míchání vaříme 20 minut.",
-        "Hotový bešamel přecedíme přes jemný cedník."
-      ]
-    },
-    {
-      "name": "lasagna",
-      "directions": [
-        "Troubu rozehřejeme na 180 °C. Připravíme mísu s ledovou vodou.",
-        "Těstoviny uvaříme podle návodu na obalu.",
-        "Dno zapékací mísy potřeme 2 lžícemi bešamelu, na něj položíme pláty těsta v jedné vrstvě. Na něj rozetřeme čtvrtinu bešamelu, přidáme čtvrtinu parmezánu a na něj rozetřeme čtvrtinu ragú.",
-        "Na ni položíme další vrstvu těstovin a stejným způsobem pokračujeme, dokud v míse nejsou 4 vrstvy. Na poslední vrstvu položíme pláty těsta, potřeme je zbývajícím bešamelem a posypeme zbylým parmezánem.",
-        "Zapékací mísu dáme do rozehřáté trouby a necháme péct 30 minut."
-      ]
-    }
-  ],
+  "directions": {
+    "type": 2,
+    "data": [
+      {
+        "name": "ragout",
+        "directions": [
+          "Připravíme sáček s kořením: do látky vložíme bobkové listy, kuličky pepře a nového koření. Pevně zavážeme kuchyňským motouzem.",
+          "Cibuli a česnek nakrájíme najemno. Mrkev a celer nakrájíme na kostičky o hraně 0,5 cm.",
+          "Stonek řapíkatého celeru omyjeme, rozkrojíme podélně na poloviny a ty nakrájíme na malé kousky.",
+          "Maso umeleme. Lardo, pancettu nebo špek nakrájíme na kostky o hraně 1 cm.",
+          "V kastrolu na středním ohni rozpálíme olej a přidáme lardo. Jakmile začne zlátnout, přidáme mrkev, celer a řapíkatý celer. Za častého míchání orestujeme zeleninu dozlatova.",
+          "Přidáme cibuli a za častého míchání ji orestujeme dozlatova.",
+          "Přidáme maso a česnek. Důkladně vše promícháme a osolíme. Stáhneme oheň na třetinu a za častého míchání vaříme 10 minut.",
+          "Přidáme rajský protlak a důkladně zamícháme. Za častého míchání vaříme 15 minut.",
+          "Přidáme sáček s kořením a čerstvě mletý pepř. Přilijeme víno, zamícháme a za občasného míchání vaříme 20 minut.",
+          "Přilijeme 100 ml vody, stáhneme oheň na minimum, přidáme muškátový oříšek, zamícháme a přiklopíme pokličkou. Necháme dusit 3 hodiny za občasného míchání. Pokud se tekutina z kastrolu odpaří, přidáme 100 ml vody."
+        ]
+      },
+      {
+        "name": "beshamel",
+        "directions": [
+          "Cibuli nakrájíme najemno.",
+          "Na středním ohni rozehřejeme v rendlíku máslo. Jakmile začne máslo pěnit, přidáme cibuli a necháme ji za stálého míchání na středním ohni 30 vteřin zpěnit. Přidáme pepř a promícháme.",
+          "Přisypeme mouku a 1 minutu mícháme. Přilijeme všechno studené mléko a důkladně promícháme metlou. Přidáme bobkový list, muškátový oříšek, sůl a přivedeme k varu. Stáhneme oheň na minimum a za stálého míchání vaříme 20 minut.",
+          "Hotový bešamel přecedíme přes jemný cedník."
+        ]
+      },
+      {
+        "name": "lasagna",
+        "directions": [
+          "Troubu rozehřejeme na 180 °C. Připravíme mísu s ledovou vodou.",
+          "Těstoviny uvaříme podle návodu na obalu.",
+          "Dno zapékací mísy potřeme 2 lžícemi bešamelu, na něj položíme pláty těsta v jedné vrstvě. Na něj rozetřeme čtvrtinu bešamelu, přidáme čtvrtinu parmezánu a na něj rozetřeme čtvrtinu ragú.",
+          "Na ni položíme další vrstvu těstovin a stejným způsobem pokračujeme, dokud v míse nejsou 4 vrstvy. Na poslední vrstvu položíme pláty těsta, potřeme je zbývajícím bešamelem a posypeme zbylým parmezánem.",
+          "Zapékací mísu dáme do rozehřáté trouby a necháme péct 30 minut."
+        ]
+      }
+    ]
+  },
   "notes": [
     "Pancetta může být nahrazena také lardem nebo špekem.",
     "K hovězímu masu sáhněte po vínu plném, suchém, červeném a s výraznější tříslovinou.",

@@ -1,11 +1,11 @@
 export interface Recipe {
   key: string
   title: string
-  origin?: string
-  image?: string
+  originUrl?: string
+  imageUrl?: string
   servings?: number
   ingredients: IngredientJson
-  directions: string[] | DirectionList[]
+  directions: DirectionJson
 }
 
 export type IngredientJson =
@@ -28,6 +28,16 @@ export interface Ingredient {
   unit?: string
   name: string
 }
+
+export type DirectionJson =
+  | {
+      type: 1
+      data: string[]
+    }
+  | {
+      type: 2
+      data: DirectionList[]
+    }
 
 export interface DirectionList {
   name: string

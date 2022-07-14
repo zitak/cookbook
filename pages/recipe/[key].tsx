@@ -1,7 +1,10 @@
 import Head from "next/head"
 import styles from "../../styles/Home.module.css"
-import { Ingredient, IngredientJson, Recipe } from "../../types/recipe"
+import { Recipe } from "../../types/recipe"
+import Image from "next/image"
 import { getAllRecipes, getRecipe } from "../../lib/recipes"
+import { IngredientBox } from "../../components/IngredientBox"
+import { DirectionBox } from "../../components/DirectionBox"
 
 interface Props {
   recipe: Recipe
@@ -17,8 +20,17 @@ const Recipe = ({ recipe }: Props) => {
       </Head>
 
       <main className={styles.main}>
+        {recipe.imageUrl && (
+          <Image
+            src={recipe.imageUrl}
+            alt={`Image of ${recipe.title}`}
+            width={200}
+            height={200}
+          />
+        )}
         <h1 className={styles.title}>{recipe.title}</h1>
         <IngredientBox ingredients={recipe.ingredients} />
+        <DirectionBox directions={recipe.directions} />
       </main>
 
       <footer className={styles.footer}></footer>
@@ -27,51 +39,6 @@ const Recipe = ({ recipe }: Props) => {
 }
 
 export default Recipe
-
-interface IngredientBoxProps {
-  ingredients: IngredientJson
-}
-
-const IngredientBox = ({ ingredients }: IngredientBoxProps) => {
-  return (
-    <div>
-      <h3>Ingredients</h3>
-      {ingredients.type === 1 ? (
-        <IngredientList list={ingredients.data} />
-      ) : (
-        ingredients.data.map((item) => {
-          return (
-            <IngredientList
-              key={item.name}
-              list={item.ingredients}
-              name={item.name}
-            />
-          )
-        })
-      )}
-    </div>
-  )
-}
-
-interface IngredientListProps {
-  list: Ingredient[]
-  name?: string
-}
-
-const IngredientList = ({ list, name }: IngredientListProps) => {
-  return (
-    <div>
-      {name && <h5>{name}</h5>}
-      <ul>
-        {list.map((item) => (
-          <li key={item.name}>{`${item.amount ?? ""} ${item.unit ?? ""} ${
-            item.name
-          }`}</li>
-        ))}
-      </ul>
-    </div>
-  )
-}
 
 type Params = {
   params: {
